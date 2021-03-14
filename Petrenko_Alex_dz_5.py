@@ -1,0 +1,16 @@
+list_price = []
+list_price.append(10.6)
+list_price.append(22.7)
+list_price.append(33.8)
+list_price.append(15.9)
+list_price.append(29.9)
+list_price.append(17.8)
+list_price.append(25)
+list_price.append(45.8)
+list_price.append(99.9)
+list_price.append(23.8)
+print(list_price, id(list_price))
+list_price.sort()
+print(list_price, id((list_price))) # видим, что id не изменился, новый обьект не создался
+print(new_list_price:=sorted(list_price, reverse=True))
+print(sorted(list_price)[5:])
